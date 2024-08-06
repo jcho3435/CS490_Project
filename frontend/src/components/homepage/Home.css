@@ -1,0 +1,161 @@
+body {
+    background-color: #343a40;
+}
+
+h2 h3 h1 {
+    font-family: 'Proxima Nova', sans-serif;
+    color: white;
+}
+.title {
+    padding-top: 5%;
+    padding-right: 5%;
+    height: 80%;
+    width: 50%;
+}
+
+.intro {
+    padding-right: 1%;
+}
+
+.four{
+    padding: 5% 0;
+}
+
+.steps {
+    font-family: 'Proxima Nova', sans-serif;
+    color: white;
+    padding: 0 8rem;
+    padding-left: 3rem;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10rem;
+}
+
+.step1, .step2, .step3 {
+    background-color: #23272b;
+    border-radius: 1rem;
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.step1 {
+    background-color: #23272b;
+    border-radius: 1rem;
+    width: 40%;
+    margin-top: 4rem;
+    height: 20rem;
+    display: grid; 
+    align-items: center; 
+}
+
+
+.step1 h3 {
+    text-align: center; /* Center the text */
+}
+
+.step2 {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.step3 {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.translate_now {
+    background-color: #ff7200;
+    border: none;
+    color: white;
+    padding: 0.5% 1%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2em;
+    margin: 0.5% 1%;
+    border-radius: 1rem; /* Rounded edges */
+    font-family: "Proxima Nova", sans-serif; /* Use Proxima Nova font */
+}
+.box{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#langs {
+    padding-top: 5%;
+    padding-right: 3%;
+    margin-bottom: 2%;
+    width: 30%;
+    height: 50%;
+}
+
+#langs2 {
+    width: 25%;
+}
+
+.arrows {
+    padding-top: 6%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.finished {
+    width: 50%;
+    height: 70%;
+}
+
+.finished {
+    width: 100%;
+}
+
+.paste {
+    width: 30%;
+    height: 60%;
+}
+
+.paste {
+    height: 50%;
+    width: 40%;
+}
+
+.Accepted {
+    padding-top: 8%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.langs {
+    width: 10%;
+    height: 10%;
+}
+
+#jav {
+    height: 8%;
+    width: 8%;
+}
+
+.star {
+    color: gold;
+    font-size: 1.5rem; /* Adjust size as needed */
+    position: relative;
+    width: 10%;
+}
+
+.halfstar{
+    width:10%;
+}
+
+
+.rating-number {
+    color: gold;
+    font-size: 2rem;
+}
+
+.reviews{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}

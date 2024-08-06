@@ -1,0 +1,54 @@
+.load-container {
+    display: flex;
+    flex-direction: column;  /* Ensures elements are stacked vertically */
+    align-items: center;  /* Initially centers content horizontally */
+    background-color: #565c63;  /* Applies background color to the entire container */
+    border-radius: 0.6em;  /* Rounds the corners of the entire container */
+    color: white;  /* Sets the text color for all child elements */
+    padding: 1em;
+    width: 100%;
+}
+
+.space {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.holder {
+    display: flex;
+    width: 50%;
+    margin: auto;
+    flex-direction: column;
+    padding-top: 2rem;
+}
+
+.release-container h1 {
+    font-size: 2rem;  /* Specifies the size of the header font */
+}
+
+p {
+    font-size: 1rem;  /* Ensures the paragraph has the correct font size */
+}
+
+.code-title h2 {
+    text-align: center;  /* Centers the content of .code-title */
+}
+
+.titles {
+    text-align: center;
+}
+.tech-stck {
+    text-align: left;  /* Aligns the content of .tech-stck to the left */
+    width: 100%; 
+}
+
+.code-block {
+    background-color: black; /* Light grey background */
+    color: whitesmoke; /* Dark grey text color */
+    border: 1px solid #ccc; /* Light grey border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px; /* Padding inside the code block */
+    font-family: 'Courier New', Courier, monospace; /* Monospace font for code */
+    overflow-x: auto; /* Adds a horizontal scrollbar if the code is too wide */
+    list-style-type: none; /* Removes bullet points */
+}

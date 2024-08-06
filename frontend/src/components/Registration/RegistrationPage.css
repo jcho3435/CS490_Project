@@ -1,0 +1,108 @@
+/* Assuming both pages will have similar styles, you can use the same CSS file for both. */
+
+.registration-page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Proxima Nova', sans-serif;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    width: 25rem;
+  }
+  
+  .registration-form-box {
+    background-color: #23272b; /* Box background */
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+  }
+  
+  .registration-form-title {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .registration-form-group label {
+    display: block;
+    color: #bbb; /* Label color */
+    margin-bottom: 0.5rem;
+  }
+  
+  .registration-form-control {
+    background-color: #2d3238; /* Input background */
+    border: 1px solid #343a40; /* Border color */
+    border-radius: 4px;
+    color: white; /* Text color */
+    padding: 0.5rem;
+    width: 100%;
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+  }
+  
+  .registration-form-control:focus {
+    outline: none;
+    border-color: #007bff; /* Focus border color */
+    background-color: #1e2124; /* Slightly lighter background on focus */
+  }
+  
+  .registration-button-container {
+    text-align: center;
+    margin-top: 1rem;
+  }
+  
+  .registration-form-button {
+    background-color: #007bff; /* Button background */
+    border: none;
+    padding: 0.5rem 2rem;
+    font-size: 1rem;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .registration-form-button:hover {
+    background-color: #0056b3; /* Darker background on hover */
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .registration-form-box {
+      padding: 1.5rem;
+    }
+    
+    .registration-form-button{
+      padding: 0.5rem 1rem;
+    }
+  }
+  
+  
+.eye-icon{
+  width: 1.3rem;
+}
+
+.show-password-button {
+  position: absolute;
+  right: 0.5rem;
+  top: 0.15rem;
+  height: calc(100% - 1rem);
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.show-password-button:active .eye-icon {
+    filter: brightness(75%); /* Makes the image 25% darker when the button is clicked */
+}
+
+.password-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}

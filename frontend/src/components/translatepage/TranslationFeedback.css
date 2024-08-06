@@ -1,0 +1,55 @@
+.text{
+  text-decoration: none;
+  font-family: "Proxima Nova", sans-serif;
+  margin: 0;
+  padding-top: 30px;
+  padding-left: 20px;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.rating-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 5rem; /* Add left padding to move content to the right */
+}
+
+.rating-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 10px
+}
+
+.rating-stars {
+    margin-bottom: 10px;
+    padding-left: 1.5rem;
+}
+
+.textbox{
+    padding-left: 1.5rem;
+
+}
+
+.star {
+    font-size: 24px; /* Increase font size for text-based stars */
+    width: 24px; /* Width for image or SVG stars */
+    height: 24px; /* Height for image or SVG stars */
+    cursor: pointer; /* Changes the cursor to a pointer to indicate it's clickable */
+}
+
+.submit-button{
+    color: white;
+    background-color: #007bff;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: .5rem 2rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: .3rem;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Proxima Nova', sans-serif;
+    border-radius: 0.8rem;
+}

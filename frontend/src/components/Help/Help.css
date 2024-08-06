@@ -1,0 +1,57 @@
+.help-title-container {
+    text-align: center !important; /* Center text horizontally */
+}
+
+.title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 6rem; /* Adjust font size as needed */
+    text-align: center;
+    color:white;
+}
+
+.subtitle {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem; /* Adjust font size as needed */
+    text-align: center;
+    color:white;
+}
+
+.resources {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem; /* Adjust font size as needed */
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.left-box, .right-box {
+  flex: 1;
+  padding: 0 10px; /* Add padding for spacing */
+  display: flex; /* Add display flex to make items center */
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center items horizontally */
+}
+
+.left-box ul, .right-box ul {
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+}
+
+.left-box {
+  margin-right: 10px; /* Add margin between the boxes */
+}
+
+.right-box {
+  margin-left: 10px; /* Add margin between the boxes */
+}
+
+.left-box ul li, .right-box ul li { 
+  color: white;  
+  font-size: 1.5rem;
+  margin-left: 8.5%;
+}
+
+.left-box ul li:hover { 
+  background-color: #565c63;   
+}

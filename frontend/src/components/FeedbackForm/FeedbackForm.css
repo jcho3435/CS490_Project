@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #343a40; 
+}
+
+.background-page {
+  background-color: #343a40;
+  color: white;
+  min-height: 100vh;
+  font-family: 'Courier New', Courier, monospace;
+  flex-direction: column; 
+}
+
+.title{
+  color: white;
+  background-color: #343a40;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: left;
+  font-size: 30px;
+  margin-top: 3%;
+  margin-left: 3%;
+}
+
+.subtitle{
+  color: white;
+  background-color: #343a40;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: left;
+  font-size: 25px;
+  margin-top: 3%;
+  margin-left: 3%;
+}
+
+
+.questions-container {
+  background-color: #23272B; 
+  /* display: flex;
+  flex-direction: column;  */
+  display: block;
+  float: left;
+  width: 35%;
+  border-radius: 10%;
+  margin-left: 10%;
+  margin-top: 2%;
+}
+
+.question { /* Add margin between questions */
+  align-items: left;
+  display: block;
+  margin-bottom: 7%;
+  margin-top: 3%;
+  font-size: 20px;
+}
+
+
+
+.radio-buttons {
+  display: flex;
+  flex-direction: row-reverse; /* Align radio buttons horizontally to the right */
+  margin-bottom: 10px;
+  margin-right: 10%;
+}
+
+.radio-buttons label {
+  font-size: 18px;
+  margin-right: 10px;
+  width: 15%;
+}
+
+.radio-buttons input[type="radio"] {
+  width: 30px; 
+  height: 30px;
+  margin-right: 5px; 
+  margin-top: 15%;
+}
+
+
+.other-container{
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 10%;
+    font-size: 20px;
+}
+
+.textbox{
+    background-color: #23272B;
+    color: white;
+    margin-left: 5%;
+    font-size: 15px;
+    resize: vertical;
+}
+
+.submit-button {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #007bff;
+  border-color: #007bff;
+  color: white;
+  padding: .5rem 2rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  border-radius: .3rem;
+  cursor: pointer;
+  display: inline-block;
+  transition: background-color 0.3s ease; /* Add transition effect */
+}
+
+.submit-button:hover {
+  background-color: #0069d9;
+  border-color: #0062cc;
+}

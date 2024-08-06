@@ -1,0 +1,48 @@
+/* Forgot.css */
+.forgot-pass-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 13rem;
+    height: 100vh;
+    font-family: 'Proxima Nova', sans-serif;
+}
+
+.change_password {
+    background-color: #23272b;
+    padding: 1.25rem; /* 20px */
+    border-radius: 0.5rem; /* 8px */
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.2); /* 4px vertical, 8px blur */
+    color: #ffffff;
+    width: 100%;
+    max-width: 22.5rem; /* 360px */
+}
+
+.change_password label {
+    display: block;
+    font-family: 'Proxima Nova', sans-serif;
+    color: #bbb;
+    margin-bottom: 0.625rem; /* 10px */
+}
+
+.username-control {
+    width: 80%;
+    padding: 0.625rem; /* 10px */
+    margin-top: 0.3125rem; /* 5px */
+    border-radius: 0.25rem; /* 4px */
+    border: 0.0625rem solid #444c56; /* 1px */
+    background-color: #2d3238;
+    color: #ffffff;
+}
+
+.reset-button-container {
+  background-color: #007bff;
+  border: none;
+  padding: 0.5rem 2rem;
+  font-size: 1rem;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+}

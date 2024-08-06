@@ -1,0 +1,168 @@
+.login-page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: 'Proxima Nova', sans-serif;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  width: 25rem;
+}
+
+.login-form-box ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.login-form-box ul li {
+  padding: 10px;
+  cursor: pointer;
+  border-bottom: 1px solid #ccc;
+}
+
+.login-form-box {
+  background-color: #23272b;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+.login-form-box-2fa{
+  background-color: #23272b;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 65%;
+  margin: 50 50;
+}
+
+.login-form-box h2 {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.login-form-group label {
+  display: block;
+  color: #bbb;
+  margin-bottom: 0.5rem;
+  position: relative;
+}
+
+.login-form-control {
+  background-color: #2d3238;
+  border: 1px solid #343a40;
+  border-radius: 4px;
+  color: white;
+  padding: 0.5rem;
+  width: 100%;
+  margin-bottom: 1rem;
+  box-sizing: border-box;
+}
+
+.login-form-control:focus {
+  outline: none;
+  border-color: #007bff;
+  background-color: #1e2124;
+}
+
+.login-button-container {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.login-form-button {
+  background-color: #007bff;
+  border: none;
+  padding: 0.5rem 2rem;
+  font-size: 1rem;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+
+
+
+.col_holder {
+  display: flex;
+  justify-content: space-around;
+}
+
+.col_holder > *:not(:last-child) {
+  margin-right: 20px; /* Adjust the value as needed */
+}
+
+.space {
+  padding-top: 5%;
+}
+
+.delete-form-button {
+  background-color: red;
+  border: none;
+  padding: 0.5rem 2rem;
+  font-size: 1rem;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.login-form-button:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .login-form-box {
+    padding: 1.5rem;
+  }
+
+  .login-form-button {
+    padding: 0.5rem 1rem;
+  }
+}
+
+
+a{
+  color:white;
+}
+
+
+
+.eye-icon{
+  width: 1.3rem;
+}
+
+.show-password-button {
+  position: absolute;
+  right: 0.5rem;
+  top: 0.15rem;
+  height: calc(100% - 1rem);
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.show-password-button:active .eye-icon {
+    filter: brightness(75%); /* Makes the image 25% darker when the button is clicked */
+}
+
+.password-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+
+.input-container {
+  display: flex;           /* Makes the container a flex container */
+  justify-content: center; /* Centers the items horizontally */
+  gap: 10px;               /* Adds space between each input box */
+}
